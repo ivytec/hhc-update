@@ -26,5 +26,6 @@ Step 3. 生成最终的license文本
 
 
 Step 4. 建立license文件
+-----------------------
 在license目录新建一个文件，文件名为deviceId.lic，其中deviceId为客户的设备id
 将第三步的license文本拷贝到该文件中，提交保存
