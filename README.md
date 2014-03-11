@@ -17,7 +17,7 @@ password
 
 Step 2. 生成MD5 Hash Code
 -------------------------
-> 打开[md5 generator]，将上述license的初始文本拷贝到文本框，在底部会看到生成的32字节的MD5 Hash Code
+> 打开[md5 generator](http://www.tools4noobs.com/online_php_functions/md5)，将上述license的初始文本拷贝到文本框，在底部会看到生成的32字节的MD5 Hash Code
 
 
 Step 3. 生成最终的license文本
@@ -30,8 +30,3 @@ Step 4. 建立license文件
 > 在license目录新建一个文件，文件名为deviceId.lic，其中deviceId为客户的设备id
 将第三步的license文本拷贝到该文件中，提交保存
 
-
-**Have Fun!**
-
-[md5 generator]:http://www.tools4noobs.com/online_php_functions/md5
-    
