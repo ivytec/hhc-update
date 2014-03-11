@@ -10,7 +10,7 @@ Step 1. 填写license文件的必要内容
 password
 {"deviceId"=EF175C9D50C10A4B,"expiryDate"="2020-01-01"}
 ```
-> 注意:
+> 注意: 
   - deviceId必须全大写，日期的格式为yyyy-mm-dd
   - 文末必须有一个换行符（0X0A）
 
