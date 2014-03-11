@@ -19,6 +19,7 @@ password
 Step 2. 生成MD5 Hash Code
 -------------------------
 打开[md5 generator](http://www.tools4noobs.com/online_php_functions/md5)，将上述license的初始文本拷贝到文本框，在底部会看到生成的32字节的MD5 Hash Code
+
 注意: 
   - 文末必须有一个换行符（0X0A）
 
