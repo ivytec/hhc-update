@@ -13,6 +13,7 @@ password
 ```
 
 在底部会看到生成的32字节的MD5 Hash Code，用该32个字节替换掉第一行的password，便是最终的license文本
+
  注意：
   - deviceId必须全大写，日期的格式为yyyy-mm-dd
   - license文本必须以一个换行符结尾
