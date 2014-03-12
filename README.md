@@ -4,9 +4,9 @@ hhc-update
 License制作方法.
 
 
-Step 1. 填写license文件的必要内容
+Step 1. 填写License文件的必要内容
 -------------------------
-打开[md5 generator](http://www.tools4noobs.com/online_php_functions/md5)，将如下的license样本拷贝到文本框，password更换为有效密码，设备ID和License的有效日期根据客户的申请资料填写，文本必须以一个换行结尾：
+打开[md5 generator](http://www.tools4noobs.com/online_php_functions/md5)，将如下的License样本拷贝到文本框，password更换为有效密码，设备ID和License的有效日期根据客户的申请资料填写，文本必须以一个换行结尾：
 ```
 password
 {"deviceId"=EF175C9D50C10A4B,"expiryDate"="2020-01-01"}
@@ -19,7 +19,7 @@ password
   - License文本必须以一个换行符结尾
 
 
-Step 2. 建立license文件
+Step 2. 建立License文件
 -----------------------
-在license目录新建一个文件，文件名为deviceId.lic，其中deviceId为大写的客户设备id，将上一步生成的license文本拷贝到该文件中，提交保存。
+在License目录新建一个文件，文件名为deviceId.lic，其中deviceId为大写的客户设备ID，将上一步生成的License文本拷贝到该文件中，提交保存。
 
