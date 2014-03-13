@@ -9,7 +9,7 @@ Step 1. 填写License文件的必要内容
 打开[md5 generator](http://www.tools4noobs.com/online_php_functions/md5)，将如下的License样本拷贝到文本框，password更换为有效密码，设备ID和License的有效日期根据客户的申请资料填写，文本必须以一个换行结尾：
 ```
 password
-{"deviceId"=EF175C9D50C10A4B,"expiryDate"="2020-01-01"}
+{"deviceId"="EF175C9D50C10A4B","expiryDate"="2020-01-01"}
 ```
 
 在底部会看到生成的32字节的MD5 Hash Code，用该32个字节替换掉第一行的password，便是最终的License文本。
