@@ -1,2 +1,2 @@
-d7666d01ee264d05b4e9920c0c1a17bc
-{"deviceId"="42FC05529A0E12AF","expiryDate"="2016-01-01","OP_LOG"="true","_MENU_POLLING"="false","_MENU_POLLING_BY_ADDRESS"="false","_MENU_POLLING_GATEWAY"="false","MENU_CONFIG"="false"}
+d24795bd1c5766ed27b0973c2610fdb3
+{"deviceId"="42FC05529A0E12AF","expiryDate"="2016-01-01","OP_LOG"="true","_MENU_POLLING"="true","_MENU_POLLING_BY_ADDRESS"="true","_MENU_POLLING_GATEWAY"="true","MENU_CONFIG"="true"}
