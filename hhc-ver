@@ -1,5 +1,5 @@
 {
-  "versionCode"=13,
-  "versionName"="1.2.5 b03",
-  "versionDescription"="支持通过互联网远程调试仪表\n新增部分仪表支持\n完善离线配置功能\n性能优化"
+  "versionCode"=14,
+  "versionName"="1.2.6",
+  "versionDescription"="增加自动检测软件最新版本\n增加配置修改二次确认\n增加仪表断开提示"
 }
