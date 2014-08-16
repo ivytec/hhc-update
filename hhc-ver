@@ -1,0 +1,5 @@
+{
+  "versionCode"=16,
+  "versionName"="1.2.6 b02",
+  "versionDescription"="增加自动检测软件最新版本\n增加配置修改二次确认\n增加仪表断开提示"
+}
