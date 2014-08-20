@@ -6,36 +6,33 @@
 body {
     background-color: #eeeeee;
     font-family: Arial, "Microsoft Yahei";
+    margin:0;
+    padding:0;
+    height:100%;
 }
 
-#page {    
-    width: 100%; 
-    height: 100%;
-    overflow: hidden;
-    position: relative;
+#container {
+   min-height:100%;
+   position:relative;
 }
-#header {    
-    width: 100%; 
-    position: absolute; 
-    top: 0px; 
-    left: 0px; 
+#header {
+   padding:10px;
 }
-#container {    
-    width: 100%; 
-    position: absolute; 
-    top:200px;
-    left: 0px; 
+#body {
+   padding:10px;
+   padding-bottom:60px;   /* Height of the footer */
 }
 #footer {
-    width: 100%; 
-    position: absolute; 
-    bottom: 0px; 
-    left: 0px; 
-    padding-top: 8px;
+   position:absolute;
+   padding-top:8px;   /* Height of the footer */
+   padding-top:8px;   /* Height of the footer */
+   bottom:0;
+   width:100%;
+   background:#6cf;
 }
 </style>
 
-<div id="page" align="center">
+<div id="container" align="center">
 
 <div id="header" align="center" >    
     <img src="images/ivytec.png" alt="IVYTEC" width="400">
@@ -43,7 +40,7 @@ body {
     <font color="#17827c">无锡常青藤控制技术有限公司</font>
 </div>
 
-<div id="container"><td><font size="6">网站维护中……</td></div>
+<div id="body"><td><font size="6">网站维护中……</td></div>
 
 <div id="footer" style="background-color:#dddddd">
 <table margintop="12px" > 
@@ -53,6 +50,7 @@ body {
 <tr><td>产品购买：</td><td><a href="http://shop59121304.taobao.com/?spm=2013.1.1000126.2.Y27426">官方淘宝店</a></td></tr>
 <tr><td>联系电话：</td><td>400-618-920</td></tr>
 <tr><td>E-mail：</td><td>support1@ivytec.cn</td></tr>
+<tr><td>地址：</td><td>江苏省无锡市广益路287号803</td></tr>
 </table>
 </div>
 
