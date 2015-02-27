@@ -36,9 +36,11 @@
 :   目前已经支持40多种进口仪表高级调试（操作菜单同罗斯蒙特475），未来会持续增加，只需更新软件即可使用；已支持的进口仪表系列或型号：
 
     - 罗斯蒙特
-    3051系列/3051S/8800D/8732E/8705/2051/1151/2090FG/CMF/5402
+    3051系列、3051S、8800D、8732E、8705、2051、1151、2090FG、CMF、5402、2088、248
+    - Micro Motion
+    2700
     - E+H
-    PMD系列/PMC系列/PMP系列/FMB系列/FMD系列/FMR系列/Promag系列/Promass40E/Prowirl7x/FMU4x/FEC12/tmass65I/TMT温度系列/TR温度系列/Promag10/91W/93W/
+    PMD系列、PMC系列、PMP系列、FMB系列、FMD系列、FMR系列、Promag系列、Promass40E、Prowirl7x、FMU4x、FEC12、tmass65I、TMT温度系列、TR温度系列、Promag10、91W、93W
     - ABB
     2600T系列　　
     - 横河
@@ -72,6 +74,14 @@
 
 # 硬件介绍
 
+##面板
+
+- 顶部面板
+![top][top]
+
+- 底部面板
+![bottom][bottom]
+
 ## 指示灯
 指示灯      | 颜色  | 状态  | 状态说明
 -----------|-------|-------|-------------------------- 
@@ -81,10 +91,16 @@ Tx指示灯  | 绿    | 闪烁  | 往仪表发送数据
 Tx指示灯  | 绿    | 长亮  | 异常，24V开关需要重置
 24V指示灯 | 红    | 长亮  | 输出24V给仪表
 Run指示灯  | 绿    | 闪烁  | 启动时，闪一次表示一格电量，满格四格；Ap模式下，表示数据通信；Station模式下，表示正在连接热点或数据通信
-Run指示灯  | 绿    | 长量  | 设备已启动，网络已就绪
+Run指示灯  | 绿    | 长亮  | 设备已启动，网络已就绪
 Charge指示灯 | 红  | 灭  | 未充电或充电结束
 Charge指示灯 | 红  | 长亮  | 正在充电
 
+## 电阻开关
+   位置 | 说明  
+ ------|-------|------------------------
+  左   | 输出24V，并启用内置270欧姆电阻
+  中   | 不输出24V，不启用内置270欧姆电阻
+  右   | 不输出24V，启动内置270欧姆电阻
 
 ## 电源开关
    位置 | 说明  
@@ -93,12 +109,6 @@ Charge指示灯 | 红  | 长亮  | 正在充电
   中   | 适配器电源关闭
   右   | 适配器处于站点模式
 
-## 电阻开关
-   位置 | 说明  
- ------|-------|------------------------
-  左   | 输出24V，并启用内置270欧姆电阻
-  中   | 不输出24V，不启用内置270欧姆电阻
-  右   | 不输出24V，启动内置270欧姆电阻
   
 ## 接线方式
 
@@ -488,8 +498,10 @@ HART协议
 
 
   [app]: https://raw.githubusercontent.com/icsys/hhc-update/master/manual/pics/app.png
-  [adapter]: https://raw.githubusercontent.com/icsys/hhc-update/master/manual/pics/adapter.png
-  [connect]: https://raw.githubusercontent.com/icsys/hhc-update/master/manual/pics/connect.png
+  [adapter]: https://raw.githubusercontent.com/icsys/hhc-update/master/manual/pics/adapter.png  
+  [top]: https://raw.githubusercontent.com/icsys/hhc-update/master/manual/pics/top.png
+  [bottom]: https://raw.githubusercontent.com/icsys/hhc-update/master/manual/pics/bottom.png 
+   [connect]: https://raw.githubusercontent.com/icsys/hhc-update/master/manual/pics/connect.png
   [connect2]: https://raw.githubusercontent.com/icsys/hhc-update/master/manual/pics/connect2.png
   [connect3]: https://raw.githubusercontent.com/icsys/hhc-update/master/manual/pics/connect3.png
   [connect4]: https://raw.githubusercontent.com/icsys/hhc-update/master/manual/pics/connect4.png
