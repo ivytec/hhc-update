@@ -72,6 +72,14 @@
 
 # 硬件介绍
 
+##面板
+
+- 顶部面板
+![top][top]
+
+- 底部面板
+![bottom][bottom]
+
 ## 指示灯
 指示灯      | 颜色  | 状态  | 状态说明
 -----------|-------|-------|-------------------------- 
@@ -85,6 +93,12 @@ Run指示灯  | 绿    | 长量  | 设备已启动，网络已就绪
 Charge指示灯 | 红  | 灭  | 未充电或充电结束
 Charge指示灯 | 红  | 长亮  | 正在充电
 
+## 电阻开关
+   位置 | 说明  
+ ------|-------|------------------------
+  左   | 输出24V，并启用内置270欧姆电阻
+  中   | 不输出24V，不启用内置270欧姆电阻
+  右   | 不输出24V，启动内置270欧姆电阻
 
 ## 电源开关
    位置 | 说明  
@@ -93,12 +107,6 @@ Charge指示灯 | 红  | 长亮  | 正在充电
   中   | 适配器电源关闭
   右   | 适配器处于站点模式
 
-## 电阻开关
-   位置 | 说明  
- ------|-------|------------------------
-  左   | 输出24V，并启用内置270欧姆电阻
-  中   | 不输出24V，不启用内置270欧姆电阻
-  右   | 不输出24V，启动内置270欧姆电阻
   
 ## 接线方式
 
@@ -488,8 +496,10 @@ HART协议
 
 
   [app]: https://raw.githubusercontent.com/icsys/hhc-update/master/manual/pics/app.png
-  [adapter]: https://raw.githubusercontent.com/icsys/hhc-update/master/manual/pics/adapter.png
-  [connect]: https://raw.githubusercontent.com/icsys/hhc-update/master/manual/pics/connect.png
+  [adapter]: https://raw.githubusercontent.com/icsys/hhc-update/master/manual/pics/adapter.png  
+  [top]: https://raw.githubusercontent.com/icsys/hhc-update/master/manual/pics/top.png
+  [bottom]: https://raw.githubusercontent.com/icsys/hhc-update/master/manual/pics/bottom.png 
+   [connect]: https://raw.githubusercontent.com/icsys/hhc-update/master/manual/pics/connect.png
   [connect2]: https://raw.githubusercontent.com/icsys/hhc-update/master/manual/pics/connect2.png
   [connect3]: https://raw.githubusercontent.com/icsys/hhc-update/master/manual/pics/connect3.png
   [connect4]: https://raw.githubusercontent.com/icsys/hhc-update/master/manual/pics/connect4.png
